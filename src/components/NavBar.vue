@@ -24,7 +24,7 @@
     #navbar a{
         color: #fff;
         text-decoration: none;
-        font-size: 2em;
+        font-size: 2.5em;
         margin: 100px;
         padding: 10px;
         transition: 1s;

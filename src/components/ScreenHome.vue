@@ -1,16 +1,19 @@
 <template>
     <div id="screen">
         <Banner />
+        <Form />
     </div>
 </template>
 
 <script>
 import Banner from './Banner.vue';
+import Form from './Form.vue';
 
     export default {
         name: "ScreenHome",
         components: {
-            Banner
+            Banner,
+            Form
         }
     }
 </script>

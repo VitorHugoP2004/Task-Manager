@@ -18,8 +18,9 @@
 
 </script>
 
-<style scop>
+<style>
   *{
+    font-family: monospace;
     padding: 0;
     margin: 0;
     box-sizing: border-box;

@@ -1,47 +1,36 @@
 {
-    "tarefas": [
-        {
-            "id": 1,
-            "descricao": "comprar leite",
-            "urgencia": "média",
-            "status": "pendente"
-        },
-        {
-            "id": 2,
-            "descricao": "marcar dentista para a Julinha",
-            "urgencia": "alta",
-            "status": "pendente"
-        },
-        {
-            "id": 3,
-            "descricao": "dar banho no Totó",
-            "urgencia": "baixa",
-            "status": "concluida"
-        }
-    ],
-    "proridade":[
-        {
-            "id": 1,
-            "tipo": "baixa"
-        },
-        {
-            "id": 2,
-            "tipo": "média"
-        },
-        {
-            "id": 3,
-            "tipo": "alta"
-        }
-    ],
-    "status":
-    [
-        {
-            "id": 1,
-            "tipo": "pendente"
-        },
-        {
-            "id": 2,
-            "tipo": "concluida"
-        }
-    ]
+  "tarefas": [
+    {
+      "id": 1,
+      "descricao": "comprar leite",
+      "urgencia": "média",
+      "status": "pendente"
+    },
+    {
+      "id": 2,
+      "descricao": "marcar dentista para a Julinha",
+      "urgencia": "alta",
+      "status": "pendente"
+    },
+    {
+      "id": 3,
+      "descricao": "dar banho no Totó",
+      "urgencia": "baixa",
+      "status": "concluida"
+    }
+  ],
+  "prioridade": [
+    {
+      "id": 1,
+      "tipo": "baixa"
+    },
+    {
+      "id": 2,
+      "tipo": "média"
+    },
+    {
+      "id": 3,
+      "tipo": "alta"
+    }
+  ]
 }
