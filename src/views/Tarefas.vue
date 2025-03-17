@@ -1,5 +1,14 @@
 <template>
-  <div>
-    <h1>TAREFAS</h1>
-  </div>
+  <ScreenTasks />
 </template>
+
+<script>
+  import ScreenTasks from '@/components/ScreenTasks.vue';
+
+  export default{
+    name: 'Tarefas',
+    components: {
+      ScreenTasks
+    }
+  }
+</script>

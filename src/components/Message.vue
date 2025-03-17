@@ -24,5 +24,6 @@
         border-radius: 15px;
         color: black;
         margin-top: 40px;
+        cursor: default;
     }
 </style>

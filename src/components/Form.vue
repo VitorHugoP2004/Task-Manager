@@ -9,7 +9,9 @@
             </select>
             <input class="botao" type="submit" value="Criar">
         </form>
-        <Message :msg="msg" v-show="msg"/>
+        <div id="msg">
+            <Message :msg="msg" v-show="msg"/>
+        </div>
     </div>
 </template>
 
@@ -42,7 +44,7 @@ import Message from './Message.vue'
 
                 const data = {
                     descricao: this.descricao,
-                    priotidade: this.prioridade,
+                    prioridade: this.prioridade,
                     status: "pendente"
                 } 
 
@@ -70,9 +72,15 @@ import Message from './Message.vue'
 </script>
 
 <style scoped>
-    #divForm{
+    #msg{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #divForm {
         max-width: 500px;
-        margin: 180px auto;
+        margin: 10% auto;
+        padding: 20px;
     }
     #divForm h1{
         color: #867298;

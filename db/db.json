@@ -1,35 +1,35 @@
 {
   "tarefas": [
     {
-      "id": 1,
+      "id": "1",
       "descricao": "comprar leite",
-      "urgencia": "média",
+      "prioridade": "média",
       "status": "pendente"
     },
     {
-      "id": 2,
+      "id": "2",
       "descricao": "marcar dentista para a Julinha",
-      "urgencia": "alta",
+      "prioridade": "alta",
       "status": "pendente"
     },
     {
-      "id": 3,
+      "id": "3",
       "descricao": "dar banho no Totó",
-      "urgencia": "baixa",
+      "prioridade": "baixa",
       "status": "concluida"
     }
   ],
   "prioridade": [
     {
-      "id": 1,
+      "id": "1",
       "tipo": "baixa"
     },
     {
-      "id": 2,
+      "id": "2",
       "tipo": "média"
     },
     {
-      "id": 3,
+      "id": "3",
       "tipo": "alta"
     }
   ]
